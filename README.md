@@ -44,7 +44,7 @@ cat < file1
 ## OUTPUT
 
 ![Alt text](<Screenshot at 2026-03-23 03-43-17.png>)
-https://github.com/Sreejaa14/OS-Linux-commands-Shell-script/blob/main/images/Screenshot%20at%202026-03-23%2003-43-17.png
+
 
 cat < file2
 ## OUTPUT
