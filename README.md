@@ -43,7 +43,7 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
-(<Screenshot at 2026-03-23 03-43-17.png>)
+![Alt text](<Screenshot at 2026-03-23 03-43-17.png>)
 
 
 cat < file2
