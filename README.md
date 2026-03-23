@@ -43,24 +43,24 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-43-17.png>)
+![Alt text](<Screenshot at 2026-03-23 03-43-17.png>)
 
 
 cat < file2
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-43-46.png>)
+![Alt text](<Screenshot at 2026-03-23 03-43-46.png>)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- ![Alt text](screenshots/<Screenshot at 2026-03-23 03-44-35.png>)
+ ![Alt text](<Screenshot at 2026-03-23 03-44-35.png>)
 comm file1 file2
  ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-44-52.png>)
+![Alt text](<Screenshot at 2026-03-23 03-44-52.png>)
  
 diff file1 file2
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-45-24.png>)
+![Alt text](<Screenshot at 2026-03-23 03-45-24.png>)
 
 #Filters
 
@@ -84,18 +84,18 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-47-56.png>)
+![Alt text](<Screenshot at 2026-03-23 03-47-56.png>)
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-48-35.png>)
+![Alt text](<Screenshot at 2026-03-23 03-48-35.png>)
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-48-54.png>)
+![Alt text](<Screenshot at 2026-03-23 03-48-54.png>)
 
 cat < newfile 
 ```
@@ -110,39 +110,39 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-49-10.png>)
+![Alt text](<Screenshot at 2026-03-23 03-49-10.png>)
 
 grep hello newfile 
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-49-39.png>)
+![Alt text](<Screenshot at 2026-03-23 03-49-39.png>)
 
 
 grep -v hello newfile 
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-50-06.png>)
+![Alt text](<Screenshot at 2026-03-23 03-50-06.png>)
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-50-35.png>)
+![Alt text](<Screenshot at 2026-03-23 03-50-35.png>)
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-51-06.png>)
+![Alt text](<Screenshot at 2026-03-23 03-51-06.png>)
 
 
 grep -R ubuntu /etc
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-52-08.png>)
+![Alt text](<Screenshot at 2026-03-23 03-52-08.png>)
 
 grep -w -n world newfile   
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-52-15.png>)
+![Alt text](<Screenshot at 2026-03-23 03-52-15.png>)
 
 cat < newfile 
 ```
@@ -166,59 +166,59 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-52-31.png>)
+![Alt text](<Screenshot at 2026-03-23 03-52-31.png>)
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-52-51.png>)
+![Alt text](<Screenshot at 2026-03-23 03-52-51.png>)
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-53-09.png>)
+![Alt text](<Screenshot at 2026-03-23 03-53-09.png>)
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-53-27.png>)
+![Alt text](<Screenshot at 2026-03-23 03-53-27.png>)
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-53-45.png>)
+![Alt text](<Screenshot at 2026-03-23 03-53-45.png>)
 
 egrep '(World$)' newfile 
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-53-58.png>)
+![Alt text](<Screenshot at 2026-03-23 03-53-58.png>)
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-54-12.png>)
+![Alt text](<Screenshot at 2026-03-23 03-54-12.png>)
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-54-26.png>)
+![Alt text](<Screenshot at 2026-03-23 03-54-26.png>)
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-54-39.png>)
+![Alt text](<Screenshot at 2026-03-23 03-54-39.png>)
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-55-17.png>)
+![Alt text](<Screenshot at 2026-03-23 03-55-17.png>)
 
 egrep l{2} newfile
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-57-32.png>)
+![Alt text](<Screenshot at 2026-03-23 03-57-32.png>)
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-57-59.png>)
+![Alt text](<Screenshot at 2026-03-23 03-57-59.png>)
 
 cat > file23
 ```
@@ -237,76 +237,76 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-58-12.png>)
+![Alt text](<Screenshot at 2026-03-23 03-58-12.png>)
 
 sed -n -e '$p' file23
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-58-35.png>)
+![Alt text](<Screenshot at 2026-03-23 03-58-35.png>)
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-59-07.png>)
+![Alt text](<Screenshot at 2026-03-23 03-59-07.png>)
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-59-24.png>)
+![Alt text](<Screenshot at 2026-03-23 03-59-24.png>)
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-59-37.png>)
+![Alt text](<Screenshot at 2026-03-23 03-59-37.png>)
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 03-59-55.png>)
+![Alt text](<Screenshot at 2026-03-23 03-59-55.png>)
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-00-13.png>)
+![Alt text](<Screenshot at 2026-03-23 04-00-13.png>)
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-00-26.png>)
+![Alt text](<Screenshot at 2026-03-23 04-00-26.png>)
 
 seq 10 
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-00-50.png>)
+![Alt text](<Screenshot at 2026-03-23 04-00-50.png>)
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-01-15.png>)
+![Alt text](<Screenshot at 2026-03-23 04-01-15.png>)
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-01-30.png>)
+![Alt text](<Screenshot at 2026-03-23 04-01-30.png>)
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-01-44.png>)
+![Alt text](<Screenshot at 2026-03-23 04-01-44.png>)
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-01-58.png>)
+![Alt text](<Screenshot at 2026-03-23 04-01-58.png>)
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-02-44.png>)
+![Alt text](<Screenshot at 2026-03-23 04-02-44.png>)
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-03-11.png>)
+![Alt text](<Screenshot at 2026-03-23 04-03-11.png>)
 
 
 sed -n '2,4{s/$/*/;p}' file23
@@ -324,7 +324,7 @@ cat > file21
 sort file21
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-03-27.png>)
+![Alt text](<Screenshot at 2026-03-23 04-03-27.png>)
 cat > file22
 ```
 1001 | Ram | 10000 | HR
@@ -337,13 +337,13 @@ cat > file22
 uniq file22
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-03-50.png>)
+![Alt text](<Screenshot at 2026-03-23 04-03-50.png>)
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-04-07.png>)
+![Alt text](<Screenshot at 2026-03-23 04-04-07.png>)
 cat < urllist.txt
 ```
 www. yahoo. com
@@ -360,18 +360,18 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-04-27.png>)
+![Alt text](<Screenshot at 2026-03-23 04-04-27.png>)
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-04-45.png>)
+![Alt text](<Screenshot at 2026-03-23 04-04-45.png>)
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-06-55.png>)
+![Alt text](<Screenshot at 2026-03-23 04-06-55.png>)
 mkdir backupdir
  
 mv backup.tar backupdir
@@ -380,19 +380,19 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-07-39.png>)
+![Alt text](<Screenshot at 2026-03-23 04-07-39.png>)
 
 tar -xvf backup.tar
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-19-57.png>)
+![Alt text](<Screenshot at 2026-03-23 04-19-57.png>)
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- ![Alt text](screenshots/<Screenshot at 2026-03-23 04-20-23.png>)
+ ![Alt text](<Screenshot at 2026-03-23 04-20-23.png>)
 gunzip backup.tar.gz
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-22-39.png>)
+![Alt text](<Screenshot at 2026-03-23 04-22-39.png>)
  
 # Shell Script
 ```
@@ -402,7 +402,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-23-50.png>)
+![Alt text](<Screenshot at 2026-03-23 04-23-50.png>)
  
 cat << stop > herecheck.txt
 ```
@@ -415,7 +415,7 @@ stop
 cat herecheck.txt
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-24-34.png>)
+![Alt text](<Screenshot at 2026-03-23 04-24-34.png>)
 
 cat < scriptest.sh 
 ```bash
@@ -454,25 +454,25 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
- ![Alt text](screenshots/<Screenshot at 2026-03-23 04-24-59.png>)
+ ![Alt text](<Screenshot at 2026-03-23 04-24-59.png>)
 ls file1
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-25-11.png>)
+![Alt text](<Screenshot at 2026-03-23 04-25-11.png>)
 echo $?
 ## OUTPUT 
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-26-20.png>)
+![Alt text](<Screenshot at 2026-03-23 04-26-20.png>)
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- ![Alt text](screenshots/<Screenshot at 2026-03-23 04-26-55.png>)
+ ![Alt text](<Screenshot at 2026-03-23 04-26-55.png>)
 abcd
  
 echo $?
  ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-27-37.png>)
+![Alt text](<Screenshot at 2026-03-23 04-27-37.png>)
  
 # mis-using string comparisons
 
@@ -504,13 +504,13 @@ fi
 ```
 ##OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-28-11.png>)
+![Alt text](<Screenshot at 2026-03-23 04-28-11.png>)
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-30-06.png>)
+![Alt text](<Screenshot at 2026-03-23 04-30-06.png>)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -537,7 +537,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-31-00.png>)
+![Alt text](<Screenshot at 2026-03-23 04-31-00.png>)
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -584,7 +584,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-31-41.png>)
+![Alt text](<Screenshot at 2026-03-23 04-31-41.png>)
 
 # using numeric test comparisons
 cat > iftest.sh 
@@ -627,7 +627,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-33-48.png>)
+![Alt text](<Screenshot at 2026-03-23 04-33-48.png>)
 # check if a file
 cat > ifnested.sh 
 ```bash
@@ -676,7 +676,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-34-26.png>)
+![Alt text](<Screenshot at 2026-03-23 04-34-26.png>)
 # looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
@@ -705,7 +705,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-35-57.png>)
+![Alt text](<Screenshot at 2026-03-23 04-35-57.png>)
 # testing compound comparisons
 cat> ifcompound.sh 
 ```bash
@@ -720,7 +720,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-36-47.png>)
+![Alt text](<Screenshot at 2026-03-23 04-36-47.png>)
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -831,7 +831,7 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-56-24.png>)
+![Alt text](<Screenshot at 2026-03-23 04-56-24.png>)
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -854,7 +854,7 @@ Khammam
 
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-57-58.png>)
+![Alt text](<Screenshot at 2026-03-23 04-57-58.png>)
 cat forctype.sh 
 ```bash
 #!/bin/bash
@@ -880,7 +880,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 04-59-01.png>)
+![Alt text](<Screenshot at 2026-03-23 04-59-01.png>)
 cat fornested1.sh 
 ```bash
 #!/bin/bash
@@ -899,7 +899,7 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
- ![Alt text](screenshots/<Screenshot at 2026-03-23 05-01-09.png>)
+ ![Alt text](<Screenshot at 2026-03-23 05-01-09.png>)
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -915,7 +915,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 05-03-22.png>)
+![Alt text](<Screenshot at 2026-03-23 05-03-22.png>)
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
@@ -940,7 +940,7 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- ![Alt text](screenshots/<Screenshot at 2026-03-23 05-23-37.png>)
+ ![Alt text](<Screenshot at 2026-03-23 05-23-37.png>)
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -954,7 +954,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 05-25-57.png>)
+![Alt text](<Screenshot at 2026-03-23 05-25-57.png>)
 
  cat exread1.sh
 ```bash
@@ -967,7 +967,7 @@ $ chmod 755 exread1.sh
 
 ## OUTPUT
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 05-28-45.png>)
+![Alt text](<Screenshot at 2026-03-23 05-28-45.png>)
 
 $ ./exread1.sh 
  
@@ -987,7 +987,7 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 05-29-00.png>)
+![Alt text](<Screenshot at 2026-03-23 05-29-00.png>)
  ./funcex.sh 
 
  
@@ -1005,7 +1005,7 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 05-29-48.png>)
+![Alt text](<Screenshot at 2026-03-23 05-29-48.png>)
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1023,7 +1023,7 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 05-30-31.png>)
+![Alt text](<Screenshot at 2026-03-23 05-30-31.png>)
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1037,7 +1037,7 @@ done
 set +x
 ```
 ## OUTPUT
-![Alt text](screenshots/<Screenshot at 2026-03-23 05-35-10.png>)
+![Alt text](<Screenshot at 2026-03-23 05-35-10.png>)
  ./argshift.sh 1 2 3
  
  
@@ -1071,7 +1071,7 @@ ubcdfghj
 awk -f nc.awk data.dat
 ## OUTPUT 
  
-![Alt text](screenshots/<Screenshot at 2026-03-23 05-37-21-1.png>)
+![Alt text](<Screenshot at 2026-03-23 05-37-21-1.png>)
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1099,7 +1099,7 @@ fi
 ```
 ## OUTPUT 
 
-![Alt text](screenshots/<Screenshot at 2026-03-23 05-38-20.png>)
+![Alt text](<Screenshot at 2026-03-23 05-38-20.png>)
 
 # RESULT:
 The Commands are executed successfully.
